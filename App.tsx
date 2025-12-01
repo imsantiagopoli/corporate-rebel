@@ -7,12 +7,9 @@ import Process from './components/Process';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import Comparison from './components/Comparison';
-import LoadingScreen from './components/LoadingScreen';
-
 const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-black text-white selection:bg-red-600 selection:text-black">
-      <LoadingScreen />
       
       <nav className="fixed top-0 w-full z-50 bg-black/90 backdrop-blur-md border-b border-white/5">
         <div className="container mx-auto px-6 h-20 flex items-center justify-between">
